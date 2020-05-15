@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfSocialNetwork.General"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSocialNetwork"
+        mc:Ignorable="d"
+        Title="General" Height="600" Width="350">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FF21201E"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <DockPanel HorizontalAlignment="Left" Height="569" LastChildFill="False" VerticalAlignment="Top" Width="132">
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF878787" Offset="0.348"/>
+                    <GradientStop Color="#FF878787" Offset="0.482"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+        </DockPanel>
+        <Button Content="My profile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Height="75" Click="MyProfile" Background="#FFF4F1EC" FontFamily="Segoe UI Black" FontSize="18"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="0,159,0,0" VerticalAlignment="Top" Width="132" Height="74" Click="Search" Background="#FFF4F1EC" FontFamily="Segoe UI Black" FontSize="18"/>
+        <Button Content="Change pass" HorizontalAlignment="Left" Margin="0,80,0,0" VerticalAlignment="Top" Width="132" Height="74" Click="ChangePassword" RenderTransformOrigin="-2.562,4.114" Background="#FFF4F1EC" FontFamily="Segoe UI Black" FontSize="18"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="0,493,0,0" VerticalAlignment="Top" Width="132" Height="76" Click="Exit" FontFamily="Segoe UI Black" Background="White" RenderTransformOrigin="0.504,-0.276" FontSize="18"/>
+        <Label Content="InStogram" HorizontalAlignment="Left" Height="61" Margin="140,10,0,0" VerticalAlignment="Top" Width="194" Background="#FF21201E" Foreground="#FFF9F0E6" FontFamily="Segoe UI Black" FontSize="36" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.134"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <DockPanel HorizontalAlignment="Left" Height="568" LastChildFill="False" Margin="128,-1,0,0" VerticalAlignment="Top" Width="9" Background="#FF1F1111" RenderTransformOrigin="0.5,0.5">
+            <DockPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DockPanel.RenderTransform>
+        </DockPanel>
+
+    </Grid>
+
+</Window>
