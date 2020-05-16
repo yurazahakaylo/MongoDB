@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Zaga\Desktop\SimpleMongoDB-master\WpfSocialNetwork\WpfSocialNetwork\obj\Debug\
+C:\Users\Zaga\MongoDB\MongoDB\WpfSocialNetwork\WpfSocialNetwork\obj\Debug\
 WpfSocialNetwork
 none
 false
 DEBUG;TRACE
-C:\Users\Zaga\Desktop\SimpleMongoDB-master\WpfSocialNetwork\WpfSocialNetwork\App.xaml
+C:\Users\Zaga\MongoDB\MongoDB\WpfSocialNetwork\WpfSocialNetwork\App.xaml
 91345525283
 
 13-898233484
-70-2143495109
+70-2002242962
 NewComment.xaml;ChangePost.xaml;ChangePassword.xaml;General.xaml;Login.xaml;Profile.xaml;Registration.xaml;SearchUser.xaml;ViewComments.xaml;
 
 False
