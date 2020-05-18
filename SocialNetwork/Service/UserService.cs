@@ -179,11 +179,14 @@ namespace Service
 
         public void InsertUser(string nickname, string email, string password)
         {
+            neo neo = new neo();
             User user = new User();
             user.Nickname = nickname;
             user.Email = email;
             user.Password = GetHashStringSHA256(password);
             repository.Add(user);
+
+            neo.Create(user.Nickname);
         }
 
 
